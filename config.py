@@ -19,30 +19,30 @@ APP_ID = int(os.environ.get("APP_ID", "28713982"))
 API_HASH = os.environ.get("API_HASH", "237e15f7c006b10b4fa7c46fee7a5377")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002181344980"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6695586027"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7195990500"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster01")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://drapixstore:Y7DJWJCCpBQClI5o@cluster0.fq7ee6x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002108419450"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001982072622"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001976541518"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002072680781"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001926609368"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001933718023"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #token varibles
 # my shortner https://dashboard.shareus.io/signup/lifetime/U9AZbV
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.shareus.io")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "PUIAQBIFrydvLhIzAOeGV8yZppu2")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
